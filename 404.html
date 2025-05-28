@@ -1,8 +1,8 @@
 <!-- Redireciona todas as rotas para index.html para suportar SPA no GitHub Pages -->
 <script>
-  // Redireciona para index.html mantendo o path
+  // Redireciona para a home do projeto, sem hash, para garantir SPA
   if (location.pathname !== '/iara-amazonia-floresta-web/' && !location.pathname.endsWith('.html')) {
-    location.replace('/iara-amazonia-floresta-web/' + '#'+ location.pathname.replace('/iara-amazonia-floresta-web','') + location.search + location.hash);
+    location.replace('/iara-amazonia-floresta-web/');
   }
 </script>
 <!-- Conteúdo padrão para fallback -->
