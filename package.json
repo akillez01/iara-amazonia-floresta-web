@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/akillez01/iara-amazonia-floresta-web.git",
+  "homepage": "https://akillez01.github.io/iara-amazonia-floresta-web",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
