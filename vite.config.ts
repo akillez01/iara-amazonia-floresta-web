@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/iara-amazonia-floresta-web/",
+  base: mode === 'development' ? '/' : '/iara-amazonia-floresta-web/',
   server: {
     host: "::",
     port: 8080,
